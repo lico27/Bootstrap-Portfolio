@@ -1,13 +1,17 @@
 body {
-    background-color: #013037;
+    background-color: #0C100D;
 }
 
-.nav-item {
+* {
     color: #9BA7B1;
 }
 
-h1, p {
-    color: #9BA7B1;
+h2 {
+    text-align: center;
+}
+
+.navbar {
+
 }
 
 .heroImg {
@@ -19,5 +23,22 @@ h1, p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#featuredCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myWork {
+    display: flex;
+    justify-content: center;
 
 }
+
+.card {
+    margin: 10px;
+}
+
+
