@@ -1,0 +1,23 @@
+body {
+    background-color: #013037;
+}
+
+.nav-item {
+    color: #9BA7B1;
+}
+
+h1, p {
+    color: #9BA7B1;
+}
+
+.heroImg {
+    background-image: url(../images/hero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    height: calc(100vh - 250px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
