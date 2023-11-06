@@ -39,6 +39,14 @@ a img:hover {
     flex-direction: column;
 }
 
+#featuredImage {
+    height: calc(100vh - 400px);
+    background-image: url(../images/rocknation.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
 .myWork {
     display: flex;
     justify-content: center;
