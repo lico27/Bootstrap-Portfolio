@@ -2,10 +2,10 @@ body {
     background-color: #0C100D;
 }
 
+/* Text styles */
 *, a {
     color: #9BA7B1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 h2 {
@@ -22,6 +22,7 @@ a img:hover {
     box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24);
   }
 
+/* Hero styles */
 .heroImg {
     background-image: url(../images/hero.jpeg);
     background-size: cover;
@@ -33,6 +34,7 @@ a img:hover {
     justify-content: center;
 }
 
+/* Work cards styles */
 #featuredCard {
     display: flex;
     align-items: center;
@@ -50,7 +52,6 @@ a img:hover {
 .myWork {
     display: flex;
     justify-content: center;
-
 }
 
 .card {
@@ -61,6 +62,7 @@ a img:hover {
     max-width: 350px;
 }
 
+/* Skills and contact styles */
 #skills {
     display: flex;
     flex-wrap: wrap;
@@ -74,6 +76,10 @@ a img:hover {
     margin: 0px auto;
 }
 
+form {
+    margin-bottom: 30px;
+}
+
 #socials {
     display: flex;
     align-items: start;
@@ -84,14 +90,10 @@ a img:hover {
     width: 70%;
   }
 
-form {
-    margin-bottom: 30px;
-}
-
+/* Footer styles */
 footer {
     background-color: #2B3035;
     padding: 10px;
     text-align: center;
     font-size: 12px;
-
   }
