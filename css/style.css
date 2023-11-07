@@ -18,6 +18,10 @@ a img:hover {
     opacity: 0.3;
 }
 
+a:hover {
+    text-decoration: line-through;
+}
+
 .btn:hover {
     box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24);
   }
