@@ -57,6 +57,10 @@ a img:hover {
     margin: 10px;
 }
 
+.standardCard {
+    max-width: 350px;
+}
+
 #skills {
     display: flex;
     flex-wrap: wrap;
